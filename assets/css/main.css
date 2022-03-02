@@ -1,0 +1,22 @@
+.gmail_plugin_header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+input[name="cron_submit"]{
+    padding: 1px 5px 5px 5px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+input[name="product_map_submit"],input[name="error_email_submit"]{
+    padding: 3px 10px 5px 10px;
+    margin-left: 20px;
+}
+.gmail_to_woo_form span input{
+    margin-bottom: 20px;
+}
+.gmail_to_woo_form td, .gmail_to_woo_form th{
+    border: 1px solid black;
+}
+.product_map_table{
+    width: 60%;
+}

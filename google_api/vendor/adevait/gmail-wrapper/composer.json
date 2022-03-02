@@ -1,0 +1,25 @@
+{
+    "name": "adevait/gmail-wrapper",
+    "type": "library",
+    "description": "A PHP client library that consumes Gmail APIs",
+    "keywords": ["gmail","google","API"],
+    "homepage": "https://github.com/adevait/GmailPHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Katerina Trajchevska",
+            "email": "trajchevska@adevait.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "google/apiclient": "1.1.*@dev",
+        "phpmailer/phpmailer": "~5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "GmailWrapper\\": "src/GmailWrapper/"
+        }
+    }
+}
